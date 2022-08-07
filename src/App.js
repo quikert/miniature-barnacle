@@ -150,23 +150,18 @@ const App = () => {
           <strong>Удалить все</strong>
         </button>
       )}
-      {console.log(localStorage.getItem("theme"), " THEME")}
 	  <DarkModeToggle/>
-	  
     </div>
 
-  <div class="wrapper footer-styles-container">
-    <a class="fTCHEv" href='https://github.com/ikromshi/react-todo-app' target='_blank' rel="noopener noreferrer"><FaGithub className='github'/></a>
-    <a class="fTCHEv" href='https://telegram.me/sayyorasultanova' target='_blank' rel="noopener noreferrer"><FaTelegram className='github'/></a>
-    <a class="fTCHEv" href='https://twitter.com/ikromshi' target='_blank' rel="noopener noreferrer"><FaTwitter className='github'/></a>
-    <button class="fTCHEv"><strong>&copy;Ikromshi/Sayyora</strong></button>
+  <div className="wrapper footer-styles-container">
+    <a className="fTCHEv" href='https://github.com/ikromshi/react-todo-app' target='_blank' rel="noopener noreferrer"><FaGithub className='github'/></a>
+    <a className="fTCHEv" href='https://telegram.me/ikromshi' target='_blank' rel="noopener noreferrer"><FaTelegram className='github'/></a>
+    <a className="fTCHEv" href='https://twitter.com/ikromshi' target='_blank' rel="noopener noreferrer"><FaTwitter className='github'/></a>
+    <button className="fTCHEv"><strong>&copy;Ikromshi/Sayyora</strong></button>
+    <button className="fTCHEv"><strong>/</strong></button>
+    <button className="fTCHEv"><strong>Miss you 💔</strong></button>
   </div>
 
-
-  <div class="btn-contain">
-    <button class="btn">Click Me!</button>
-    <div class="btn-particles"></div>
-  </div>
 
 
 
